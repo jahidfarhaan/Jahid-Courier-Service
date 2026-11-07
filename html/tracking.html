@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jahid Express — modern courier and logistics services for people and businesses.">
+  <title>Tracking | Jahid Express</title>
+  <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body class="">
+<div id="pageLoader" class="page-loader">
+  <div class="loader-logo">JX</div>
+  <div class="loader-line"><span></span></div>
+  <div class="loader-label">JAHID EXPRESS / LOADING ROUTE</div>
+</div>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="nav-shell">
+    <a class="brand" href="index.html" aria-label="Jahid Express home">
+      <span class="brand-mark">JX</span>
+      <span class="brand-copy">
+        <strong>JAHID EXPRESS</strong>
+        <small>COURIER & LOGISTICS</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="tracking.html">Track</a>
+      <a href="business.html">Business</a>
+      <a href="coverage.html">Coverage</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="members.html">Members</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a class="nav-cta" href="contact.html">Book a pickup <span>↗</span></a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-controls="mainNav" aria-expanded="false">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Open navigation</span>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="page-hero track-page">
+  <div><p class="eyebrow">TRACKING / SHIPMENT VIEW</p><h1>See the journey<br><em>as it moves.</em></h1></div>
+  <p>Use a shipment number to preview the delivery route and its current milestone.</p>
+</section>
+
+<section class="tracking-console">
+  <div class="console-head"><span>JX / LIVE ROUTE CONSOLE</span><span id="consoleClock">00:00:00</span></div>
+  <form id="trackingForm" class="console-form">
+    <label for="trackingNumber">Tracking number</label>
+    <div><input id="trackingNumber" type="text" placeholder="JX 482 193 705" required><button type="submit">Track shipment <span>↗</span></button></div>
+    <small id="trackingError"></small>
+  </form>
+
+  <div class="route-display" id="routeDisplay">
+    <div class="route-map-line">
+      <div class="route-city active"><span>K</span><strong>Kurnool</strong><small>Picked up</small></div>
+      <div class="route-bar"><i></i></div>
+      <div class="route-city active"><span>H</span><strong>Hyderabad</strong><small>In transit</small></div>
+      <div class="route-bar"><i></i></div>
+      <div class="route-city"><span>B</span><strong>Bengaluru</strong><small>Destination</small></div>
+    </div>
+
+    <div class="tracking-result-grid">
+      <div><span>STATUS</span><strong>IN TRANSIT</strong></div>
+      <div><span>EST. DELIVERY</span><strong>Tomorrow · 3–6 PM</strong></div>
+      <div><span>SHIPMENT</span><strong id="trackingIdOutput">JX 482 193 705</strong></div>
+    </div>
+
+    <div class="tracking-timeline">
+      <div class="timeline-item done"><b>01</b><div><strong>Shipment picked up</strong><small>Kurnool · 10:14 AM</small></div></div>
+      <div class="timeline-item done"><b>02</b><div><strong>Sorted at local facility</strong><small>Kurnool Hub · 12:02 PM</small></div></div>
+      <div class="timeline-item current"><b>03</b><div><strong>In transit</strong><small>En route to destination hub</small></div></div>
+      <div class="timeline-item"><b>04</b><div><strong>Out for delivery</strong><small>Next milestone</small></div></div>
+      <div class="timeline-item"><b>05</b><div><strong>Delivered</strong><small>Recipient handover</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="tracking-benefits section-shell">
+  <div><p class="eyebrow">WHY TRACKING MATTERS</p><h2>Less guessing.<br><em>More certainty.</em></h2></div>
+  <div class="benefit-grid">
+    <article><span>01</span><h3>Visibility</h3><p>Know the current milestone instead of wondering where the parcel is.</p></article>
+    <article><span>02</span><h3>Timing</h3><p>Use delivery windows to plan around the shipment.</p></article>
+    <article><span>03</span><h3>Support</h3><p>When a shipment needs attention, the route is easier to explain.</p></article>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">JX</span>
+        <span class="brand-copy">
+          <strong>JAHID EXPRESS</strong>
+          <small>COURIER & LOGISTICS</small>
+        </span>
+      </a>
+      <p>Fast, thoughtful movement for people, businesses and everything they need to send.</p>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <a href="services.html">Same Day</a>
+      <a href="services.html">Express</a>
+      <a href="services.html">Business Logistics</a>
+      <a href="services.html">Bulk & Freight</a>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <a href="about.html">About</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="members.html">Members</a>
+      <a href="coverage.html">Coverage</a>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <span>Plot 22, Bellary Road</span>
+      <span>Kurnool, Andhra Pradesh 518003</span>
+      <a href="tel:+916301948276">+91 63019 48276</a>
+      <a href="mailto:contact@jahidexpress.com">contact@jahidexpress.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Jahid Express</span>
+    <span>Move what matters.</span>
+  </div>
+</footer>
+
+<script src="../Js/script.js"></script>
+</body>
+</html>
